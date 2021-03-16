@@ -1,0 +1,191 @@
+html, body {
+
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+
+display: flex;
+position: fixed;
+top: 0;
+
+}
+nav ul {
+
+    display: flex;
+    justify-content: space-between;
+}
+nav li {
+
+    list-style-type: none;
+    padding-left: 2rem;
+    
+}
+nav {
+
+    background-color: #ff00ff;
+    width: 100%;
+    margin-top: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.logo{
+
+    font-weight: bold;
+}
+
+h1{
+    color: #ff00ff;
+    margin-top : 6rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    font-style: italic;
+    font-size: 46px;
+    
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+                                         /*frequent asked question section */
+
+.question {
+
+   
+    margin: 6rem;
+    background-color: #ddd;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+ p {
+
+    width: 80%;
+    padding-left: 4rem;
+    word-break: normal;
+    font-style: italic;
+    
+}
+                           /*table for openning times file. html */
+img {
+    width : 100%;
+}
+aside{
+
+    margin: 6rem;
+    background-color: #ddd;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+                                  /*footer section */
+
+.footer-container{
+
+    background-color: #ff00ff;
+    color: #000;
+    width: 100%;
+    box-sizing: border-box;
+  
+}
+.footer-container{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem;
+}
+.out-footer li{
+
+    display: inline;
+    padding-left: .6rem;
+  
+
+}
+.help li {
+
+    list-style-type:none; 
+  
+}
+.address {
+
+   padding-left: 3rem;
+}
+.head-one{
+
+    margin-left: 3rem;
+}
+span {
+    font-size: 20px ;
+    font-weight: bold;
+}
+
+
+
+
+.fab {
+
+    font-size: 30px;
+    color: #000;
+}
+.fa-tiktok{
+
+    color:#000;
+}
+.fa-instagram {
+
+    color: #000;
+}
+
+                                                    /*  form section 15/03/2021 */
+
+.sub-container {
+
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    background-color: #ddd;
+    margin: 3rem;
+    border-radius: 1rem;
+}    
+ h3 {
+    margin-left: 1rem;
+}  
+address {
+    margin-left: 5rem;
+} 
+                            /*media queries */
+
+@media screen and (max-width:768px) {
+
+       .question {
+
+           margin: 2rem;
+
+       }
+       p {
+           width: 80%;
+       }
+       h1 {
+           font-size: 30px;
+       }
+       nav {
+    
+         display: none;
+
+       }
+      aside {
+
+          margin: 2rem;
+      }
+      .footer-container {
+
+            display: block;
+      }
+       
+}
+
+

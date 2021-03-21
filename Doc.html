@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+   <style>
+      
+   .container{
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+      }
+    header {
+          background-color: coral;
+          width: 100%;
+      }    
+          
+      
+    nav ul {
+          display: flex;
+          justify-content: flex-end;
+          padding: 1rem;
+          margin-right: 1rem;
+          
+      }
+    nav li {
+
+        padding-right: 1rem;
+    }
+    main {
+        margin-top: 6rem;
+    }
+    nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+     
+       
+       
+    }
+    a{
+        color:#5f6368;
+    }
+    a:hover {
+        border-bottom: 1px solid #3c4043;
+    }
+       
+           
+      .button{
+              padding: 0 16px;
+              margin: 46px 4px;
+              background-color: #E7E7EA;
+              border-radius: 4px;
+              width: 145px;
+              height: 36px;
+         }
+      .icon {
+             width: 30px;
+             height: 30px;
+         }
+
+      .profile {
+          border-radius: 50%;
+      }
+      .inner-div{
+             text-align: center;
+         }
+      .div-one, .div-three {
+             background-color: #fff;
+         }
+    .footer{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-top: 1px solid #e4e4e4;
+    background-color: F2F2F2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;     
+    }
+    .footer div ul {
+    list-style: none;
+    display: flex;
+   
+    }
+    .footer ul li {
+
+      padding-left: 1rem;
+     
+     
+     }
+    
+     input[type="text"] {
+
+         width: 584px;
+         height: 44px;
+     }
+      
+      
+     
+    span {
+        color:red;
+    }
+
+   </style>
+</head>
+
+
+<body>
+         <header>
+
+                        <nav>
+
+                            <ul>
+
+                                
+                              
+                                <li><a href="">Gmail</a></li>
+                                <li><a href="">Images</a></li>
+                                <li><a href=""><img class="icon" src="icon.png" alt="google apps"></a></li>
+                                <li><img class="profile" src="unnamed.png" alt="pic"></li>
+                            </ul>
+
+                       </nav>
+
+        </header>
+
+        <main>
+
+           <div class="container"> 
+
+
+                  <div class="div-one">
+
+           </div>
+
+            
+
+     
+         <div class="main-div">
+
+                    <div class="inner-div">
+
+                         <img src="google.png" alt="google-image">
+
+                      <input class="input is-rounded" type="text" placeholder=" Search Google or type URL">
+                      <button class="button">Google Search</button>
+                      <button class="button">Feeling Lucky</button>
+                       
+                    </div>
+                       
+
+                            
+        </div>
+
+         <div class="div-three">
+
+         </div>
+
+         
+        </div>
+                      <!-----this is the footer section 21 03 2021 ----->
+     
+                     
+     <footer class="footer">
+
+                     <div class="fist-list">
+                  <ul>
+                      <li><a href="#">Advertising</a></li>
+                      <li><a href="#">Business</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">How Search Engine Works</a></li>
+                              
+                  </ul>  
+                        
+
+                         </div>
+
+                         <div class="second-list">
+                             <ul>
+                      <li><a href="#">Privacy</a></li>
+                      <li><a href="#">Terms</a></li>
+                      <li><a href="#">Settings</a></li>
+                  </ul>
+                </div>
+            </footer>
+        
+    </main>
+
+   <!----<div style="margin-top:300px;"></div>----->
+              
+</body>
+</html>

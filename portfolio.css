@@ -1,0 +1,156 @@
+body , html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,12,59,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+header{
+    background-color:#0c0c3b;
+    color:#fff;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+   
+}
+main {
+    margin-top: 8rem;
+}
+
+h1, h3 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.subtitle {
+    color: #fff;
+    margin-bottom: 3rem;
+}
+.introduction{
+
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    margin: 6rem;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+.introduction > p {
+
+      text-align: center;
+      font-family: monospace;
+}
+.container{
+
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 1rem;
+    margin: 4rem;
+}
+.container > div {
+
+    background-color: #0c0c3b;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.tools {
+
+    display: flex;
+    align-items: center;
+
+}
+ul , li {
+
+    display: inline;
+    justify-content: center;
+    padding-right: 1rem;
+}
+.fab{
+
+    font-size: 4rem;
+    color: tomato;
+}
+.fa-css3-alt{
+
+    color:blue;
+}
+.main{
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 2rem;
+    margin-top: 2rem;
+    
+}
+
+.form{
+
+    background-color: #fff;
+    padding:2rem;
+    border-radius: 1rem;
+    
+}
+input[type=text] {
+    width: 80%;
+    padding:10px;
+    border:1px solid #000;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    text-align: center;
+    border-radius: 1rem;
+}
+textarea {
+    width:80%;
+    resize: vertical;
+    padding:10px;
+    border-radius: 1rem;
+    border: 1px solid #000;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+    height:150px;
+    margin-left: 3rem;
+  }
+ input[type="submit"] {
+
+     background-color: blue;
+     color: #fff;
+     padding: .6rem;
+     margin-top: 2rem;
+     width: 100%;border-radius: 1rem;
+
+ }
+ img {
+     width: 100%;
+ }
+ #my-image {
+
+     width:400px;
+ }
+ .social{
+     text-align: center;
+     margin-bottom: 3rem;
+ }
+ .fa-facebook {
+     color : #000;
+ }
+ .fa-linkedin {
+     color : #000;
+ }
+ .fa-github-square {
+
+    color: #000;
+ }
+  

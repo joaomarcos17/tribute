@@ -1,0 +1,46 @@
+.fab {
+
+    font-size: 60px;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.fa-css3-alt {
+
+    color: blue;
+}
+.fa-html5 {
+    color: tomato;
+}
+.fa-js {
+    color: yellow;
+   
+}
+.fa-git-alt {
+    color: red;
+}
+.fa-github-square {
+    color:#000;
+}
+.fa-facebook {
+    color: blue;
+}
+.fa-linkedin {
+    color: skyblue
+}
+.container > div {
+ 
+    margin-top: 3rem;
+
+}
+.container > p {
+
+    margin-top: 2rem;
+}
+p{
+    font-family: monospace;
+    font-weight: bold;
+}
+.social {
+    margin-top: 2rem;
+}

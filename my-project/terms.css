@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+    h1{
+      text-align: center;
+      font-size: 3rem;
+      color: #ff00ff;
+      font-style: italic;
+    }
+    h2{
+      text-align: center;
+    }
+    
+    nav{
+        background-color: #ff00ff;
+        width: 100%;
+        padding: 1rem;
+    }
+    nav li {
+      display: inline;
+      padding: 2rem;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+    }
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+    .logo{
+      
+      font-weight: bold;
+    }
+    main {
+
+      margin-top: 6rem;
+    }
+    img{
+      width: 100%;
+    }
+   .wrapper{
+        
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #ddd;
+    margin: 3rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+   }
+   .wrapper > div {
+
+      padding-left: 6rem;
+   }
+   button {
+      
+        background-color: #ff00ff;
+        color: #fff;
+        padding: 18px 54px;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+   }
+
+
+
+    .footer-container {
+      background-color: #ff00ff;
+      width: 100%;
+    }
+    .footer-container{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      padding: 2rem;
+    }
+    .out-footer li{
+      display: inline;
+      padding-left: .6rem;
+    }
+    h3{
+         margin-bottom: 1rem;
+    } 
+    .contact li {
+
+        list-style-type: none;
+    }
+    
+    
+    span{
+        font-weight: bold;
+        font-size: 20px;
+    }
+   .fab {
+       font-size: 30px;
+       color: black;
+   }
+   @media screen and (max-width: 768px){
+
+        .wrapper{
+          display: block;
+        }
+        .wrapper div  {
+
+          margin-top: 2rem;
+
+        }
+
+        .footer-container {
+
+          display: block;
+        }
+        .footer-container > div {
+
+          margin-top: 2rem;
+        }
+
+       nav {
+           
+        display: none;
+
+       }
+   }

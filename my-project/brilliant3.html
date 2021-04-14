@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <style>
+ body, html {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     line-height: 1.6;
+ }
+ header{
+
+     position: fixed;
+     top: 0;
+     width: 100%;
+     background-color: #ff00ff;
+ }
+
+   /* navbar section*/
+     .topnav {
+
+overflow: hidden;
+background-color: #ff00ff;
+}
+
+.topnav a {
+float: left;
+display: block;
+color: #000;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover {
+background-color: rgb(136, 15, 110);
+color:#ffff;
+}
+
+.topnav a.active {
+background-color: #ff00ff;
+color: #000;
+font-weight: bold;
+}
+
+.topnav .icon {
+display: none;
+}
+
+@media screen and (max-width: 600px) {
+.topnav a:not(:first-child) {display: none;}
+.topnav a.icon {
+  float: right;
+  display: block;
+}
+}
+
+@media screen and (max-width: 600px) {
+.topnav.responsive {position: relative;}
+.topnav.responsive .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+}
+    /*main section*/
+main {
+    margin-top: 4rem;
+}
+h1 ,h2 {
+    text-align: center;
+    color: #ff00ff;
+}
+img {
+    width: 100%;
+}
+.content {
+    margin: 0 1rem;
+    padding: 2rem;
+    background-color: #ddd;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+button {
+    background-color: #ff00ff;
+    color:#ffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+button a {
+    color : #ffff;
+    text-decoration: none;
+}
+button:hover {
+background-color: rgb(136, 15, 110);
+color: #ffff;
+}
+   /*opening times section*/
+
+.wrapper{
+
+    margin: 0 1rem;
+    padding: 2rem;
+    background-color: #ddd;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+   
+}
+.wrapper > div {
+    text-align: center;
+}
+.wrapper button a {
+    text-decoration: none;
+    color: #fffff;
+}
+  /*footer section*/
+
+  .footer-container{
+         padding: 2rem;
+         margin-top: 4rem;
+         background-color: #ff00ff;
+     }
+     .item-1 li {
+
+        list-style-type : none;
+        display: inline;
+      }
+      .contact li {
+
+       list-style-type: none;
+        }
+      .contact a {
+          color: #ffff;
+          text-decoration: none;
+      }
+        span {
+      font-weight: bold;
+      font-size: 20px;
+          
+        }
+        .item-3 {
+          margin-left: 2.5rem;
+        }
+        .fab {
+          padding-right: .6rem;
+          font-size: 30px;
+        }
+        .fab:hover{
+          color: #000;
+        }
+        .fa-facebook {
+          color: blue;
+
+        }
+        .fa-tiktok{
+          color: #000;
+        }
+    /*desktop section*/
+
+       @media screen and (min-width:900px) {
+
+           .content{
+               display: grid;
+               grid-template-columns: repeat(2, 2fr);
+               grid-template-rows: inherit;
+               grid-gap: 2rem;
+           }
+           .wrapper{
+               display: grid;
+               grid-template-columns: repeat(3, 1fr);
+           }
+       }
+
+    </style>
+</head>
+<body>
+    <header>
+
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active"><strong>Mrs Brilliant</strong></a>
+            <a href="brilliant.html"target="_blank">Home</a>
+            <a href="brilliant2.html"target="_blank">Contact</a>
+            <a href="#">Services</a>
+            <a href="brilliant2.html"target="_blank">FAQs</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </header>
+
+        <main>
+
+            <h1 id="services">Our Services</h1>
+   
+   
+           <img src="brilliant.jpg" alt="logo">
+   
+   
+                                              <!----services section modified on 16 03 2021 -->
+   
+   
+       <div class="content">
+
+        <div class="fogging">
+                    
+            <img class="image.two"  src="https://i.postimg.cc/t406PFJG/smoke.jpg" alt="fogging-house">
+
+          <h2>Fogging</h2>
+
+          Mrs Brilliant now offers a fogging decontamination between tenancies when
+          the property is empty, so the next tenant can have a peace of mind that
+          the property is safe from the virus. Our Covid-19 fogging services will
+          decontaminate your entire property and our innovative electrostatic spraying 
+          system offers long term protection (30 days) against harmful viruses and bacteria
+          including Covid-19. it adds a protective shield on all surfaces and common touch 
+          points which kills microorganisms and stops their growth.
+          <br>
+            <br>
+         
+          <button><a href="">Get A Quote</a></button>
+           <br>
+             <br>
+         </div>
+          
+                       
+
+                                       <!---insert image later on 01 03 21 -->
+    <div class="tenancy">
+   
+               <img class="image-one" src="https://i.postimg.cc/rwWSYQ3p/empty.jpg" alt="house">
+   
+            <h2>End of Tenancy</h2>
+   
+              Mrs Brilliant offers a full end of tenancy cleaning that involves professionally clean carpets, oven, hob & extractor.
+              Our number one promise to you is to get your deposit back in full with 100% satisfaction guaranteed service or your money back. 
+                    <br>
+                    <br>
+              <button><a href="">Get A Quote</a></button>
+
+              <br>
+              <br>
+   
+           </div>   
+   
+   
+   
+            <div class="neglected">
+    
+                     
+                   
+   
+                   <img class="image-three" src="https://i.postimg.cc/mgNw8TPD/messy.jpg" alt="neglected-house">
+   
+                    <h2>Neglected Properties</h2>
+   
+                    Our neglected property cleaning is a bespoke service specially designed for Properties 
+                    that have been neglected by unruly tenants for extended period of time. The abandoned  
+                    premises is often left in an uninhabitable condition with large amount of rubbish and 
+                    damage left behind, then it will need specialist cleaning agents and equipment Which 
+                    Mrs Brilliant team have access & knowledge to use. 
+                   <br>
+                   <br>
+                   <button><a href="">Get A Quote</a></button>
+   
+   
+            </div>
+   
+   
+            <div class="carpet">
+   
+                 <h2>Carpet Cleaning</h2>
+   
+   
+                   We offer professional carpet cleaning services that cover most of Kent's area, such as Maidstone,
+                   Kings Hill, West Malling, East Malling, Ashford, Sevenoaks, Tonbridge, Canterbury, Faversham, 
+                   Whistable, and so on, call us for more areas.
+
+                   <h2>Upholstery Cleaning</h2>
+   
+                   Utilizing the latest developments in the field, we can clean upholstery
+                   safely, thoroughly, and professionally, with the utmost care. Our intensive,
+                   yet gentle cleaning methods guarantee against shrinkage and the removal of 
+                   damaging dirt and grit that will not only restore appearance but also 
+                   prevent premature aging of the fibrers by abrasion.
+                  
+                   <h2>Steam Clean Curtains</h2>
+   
+                    Steam cleaning the curtains is an eco-friendly, non-toxic alternative to a
+                    chemical method. The steam releases dirt and contamination from the fabric 
+                    as the tool brushes them away, leaving the curtains clean and fresh again!
+                    check out <a href="https://www.witchcleaning.co.uk/"target="_blank">Which Cleaning</a>
+                   
+
+                   <br>
+                   <br>
+                   <button><a href="https://www.witchcleaning.co.uk/"target="_blank">Get A Quote</a></button>
+    
+                        
+                            
+                  
+                   
+   
+            
+              </div>
+   
+           </div>
+                               <!--- opening times-->
+
+                               <h2 id="opening">Opening Times</h2>
+
+
+                              <div class="wrapper">
+                                
+                     
+                                 <div>
+                                                    
+                                                 
+                                                     <center>
+                     
+                                                        <table>
+                     
+                                             <tr><th>Sunday</th><td>Closed</td></tr>
+                                             <tr><th>Monday</th><td>8am - 7pm</td></tr>
+                                             <tr><th>Tuesday</th><td>8am - 7pm</td></tr>
+                                             <tr><th>Wednesday</th><td>8am - 7pm</td></tr>
+                                             <tr><th>Thursday</th><td>8am - 7pm</td></tr>
+                                             <tr><th>Friday</th><td>8am  - 7pm</td></tr>
+                                              
+                                                            </table>
+
+                                                        </center>
+                                 </div>
+                     
+                                  <div>
+                                      
+                                                        <h3>Address</h3>
+                                        
+                                               <Address>
+                     
+                                                    Maidstone <br>
+                                                    Edmett Way <br>
+                                                    Langley <br>
+                                                    ME173GD <br>
+                                                    Kent <br>
+                                                    England-UK <br>
+                     
+                                         
+                                                  </Address>
+                     
+                     
+                     
+                     
+                                 </div>
+                     
+                                     <div>
+                     
+                                           <h3>Telephone</h3>
+                     
+                                           <button><a class="PDvGL q8cvFf" href="tel:+44-7972-725050" data-tracking-element-type="3" jslog="56037; track:impression,click" itemprop="telephone" dir="ltr">Call now</a></button>
+                     
+                                             <p><strong>07972725050</strong></p>
+                     
+                     
+                     
+                                     </div>
+                     
+                         
+                                </div>
+                     
+                         
+   
+                           <!--- footer section  modified on 16 03 2021 ------>
+           
+   
+                         <div class="footer-container">
+                         
+                         
+   
+                         <div class="item-1">
+                 
+                              <ul>
+                           
+                           <h3>Follow Us</h3>
+                       <li><a href="https://www.facebook.com/mrsbrilliant"target="blank"><i class="fab fa-facebook"></i></a></li>
+                       <li><a href="https://www.tiktok.com/@mrsbrilliantclean"target="blank"><i class="fab fa-tiktok"></i></a></li>
+                       <li><a href="https://www.instagram.com/mrs_brilliant_cleaning" target="blank"><i class="fab fa-instagram"></i></a></li>
+                 
+                                </ul>
+                   </div>
+                 
+                       <div class="item-2">
+                 
+                            <ul class="contact">
+                           <li><span>Contact</span></li>
+                      <li><a href="file.html">Terms & Conditions</a></li>
+                      <li><a href="">Privacy Policy</a></li>
+                      </ul>
+                        
+                           
+                 
+                           </div>
+                 
+                       <div class="item-3">
+                 
+                           <span>Address</span><br>
+                           Maidstone Langley Park <br>
+                           ME173GD <br>
+                           Kent <br>
+                           England-UK <br>
+                           <strong>07972725050</strong><br>
+                        
+                       </div>
+                 
+                    </div>
+                 
+                 
+   
+   
+              
+   
+      
+    
+   </main>
+
+
+
+
+        <script>
+           function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+
+        </script>
+</body>
+</html>
